@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicios ElectroMecánico Diesel</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        header img {
+            height: 250px;
+        }
+        nav {
+            background-color: #34495e;
+            color: white;
+            display: flex;
+            justify-content: space-around;
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 5px 15px;
+            transition: background-color 0.3s;
+        }
+        nav a:hover {
+            background-color: #1abc9c;
+            border-radius: 5px;
+        }
+        .section {
+            padding: 20px;
+            margin: 10px auto;
+            max-width: 1200px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .section h2 {
+            color: #2c3e50;
+        }
+        ul li {
+            margin: 10px 0;
+        }
+        footer {
+            text-align: center;
+            background-color: #34495e;
+            color: white;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            color: white;
+            background-color: #1abc9c;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .btn:hover {
+            background-color: #16a085;
+        }
+        img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="img/Logo1.png" alt="Logo de Servicios ElectroMecánico Diesel">
+        <div>
+            <h1>Servicios ElectroMecánico Diesel</h1>
+            <p>Tu motor, nuestra misión</p>
+        </div>
+    </header>
+    <nav>
+        <a href="#historia">Historia</a>
+        <a href="#mision">Misión y Visión</a>
+        <a href="#valores">Valores</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+
+    <section id="historia" class="section" data-aos="fade-up">
+        <h2>Nuestra Historia</h2>
+        <img src="img/Historia.jpg" alt="Imagen de la historia de la empresa">
+        <p>Servicios ElectroMecánico Diesel nace con el objetivo de ofrecer soluciones confiables y especializadas en el mantenimiento y reparación de motores Diesel. Con años en el mercado, hemos consolidado nuestra reputación como un equipo de expertos comprometidos con la excelencia técnica y el servicio al cliente.</p>
+    </section>
+
+    <section id="mision" class="section" data-aos="fade-right">
+        <h2>Misión y Visión</h2>
+        <img src="mision.jpg" alt="Imagen representativa de misión y visión">
+        <p><strong>Misión:</strong> Proporcionar servicios de mantenimiento preventivo y correctivo de alta calidad para motores Diesel, garantizando el máximo rendimiento y durabilidad de las maquinarias de nuestros clientes.</p>
+        <p><strong>Visión:</strong> Ser el referente líder en el sector de mantenimiento y reparación de motores Diesel a nivel nacional, destacándonos por nuestra excelencia técnica, innovación constante y atención personalizada.</p>
+    </section>
+
+    <section id="valores" class="section" data-aos="fade-left">
+        <h2>Nuestros Valores</h2>
+        <img src="valores.jpg" alt="Imagen de los valores">
+        <ul>
+            <li><strong>Calidad:</strong> Mantener los más altos estándares en cada trabajo.</li>
+            <li><strong>Compromiso:</strong> Ofrecer soluciones a tiempo y con transparencia.</li>
+            <li><strong>Confianza:</strong> Construir relaciones duraderas basadas en honestidad.</li>
+            <li><strong>Innovación:</strong> Actualización constante en tecnologías de diagnóstico y reparación.</li>
+        </ul>
+    </section>
+
+    <section id="servicios" class="section" data-aos="zoom-in">
+        <h2>Nuestros Servicios</h2>
+        <img src="servicios.jpg" alt="Imagen representativa de servicios">
+        <p>Ofrecemos una amplia gama de servicios:</p>
+        <ul>
+            <li>Revisión y ajuste de sistemas mecánicos.</li>
+            <li>Pruebas de diagnóstico computarizado.</li>
+            <li>Servicio preventivo y correctivo.</li>
+            <li>Atención de emergencias 24/7.</li>
+            <li>Servicio de rescate carretero.</li>
+        </ul>
+        <a href="#contacto" class="btn">Contáctanos ahora</a>
+    </section>
+
+    <section id="contacto" class="section" data-aos="flip-up">
+        <h2>Contacto</h2>
+        <img src="contacto.jpg" alt="Imagen de contacto">
+        <p>¿Necesitas más información o un servicio urgente? Contáctanos:</p>
+        <p><strong>Teléfono:</strong> +52 123 456 7890</p>
+        <p><strong>Email:</strong> contacto@electromecanico.com</p>
+        <p><strong>Ubicación:</strong> Dirección de ejemplo, Ciudad, País</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Servicios ElectroMecánico Diesel. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
